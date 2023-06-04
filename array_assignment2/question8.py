@@ -15,7 +15,7 @@ Input: nums = [1], k = 0
 Output: 0
 
 """
-def minimumScore(nums, k):
+def minm_score(nums, k):
     min_val = float('inf')
     max_val = float('-inf')
 
@@ -29,7 +29,7 @@ def minimumScore(nums, k):
 # Test the example
 nums = [1]
 k = 0
-print(minimumScore(nums, k))
+print(minm_score(nums, k))
 
 
 

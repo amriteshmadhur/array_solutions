@@ -7,7 +7,7 @@
 
 
 
-def isMonotonic(nums):
+def is_mono(nums):
     n = len(nums)
     increasing = decreasing = True
 
@@ -20,4 +20,4 @@ def isMonotonic(nums):
     return increasing or decreasing
 
 nums = [1, 2, 2, 3]
-print(isMonotonic(nums))
+print(is_mono(nums))

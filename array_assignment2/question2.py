@@ -17,13 +17,13 @@ Explanation: Alice can only eat 6 / 2 = 3 candies. Since there are only 3 types,
 
 """
 
-def distributeCandies(candyType):
+def distribute_candies(candyType):
     max_candies = len(candyType) // 2
     unique_candies = len(set(candyType))
     return min(unique_candies, max_candies)
 
 candyType = [1, 1, 2, 2, 3, 3]
-print(distributeCandies(candyType))  # Output: 3
+print(distribute_candies(candyType))  # Output: 3
 
 
 
